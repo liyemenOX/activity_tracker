@@ -5,7 +5,7 @@ with open ('db.json','r',encoding = 'utf-8')as file:
     db = json.load(file)
 
 print("=================================================")
-print("  ----------------ACTIVITY TRACKER-------------")
+print("----------------ACTIVITY TRACKER-------------")
 print("=================================================")
 
 new_task = input("enter the task you have done today => ")
